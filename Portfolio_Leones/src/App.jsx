@@ -62,44 +62,45 @@ function App() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <nav className="md:hidden bg-[#6366f1] px-6 py-4 space-y-4">
+        <nav className="md:hidden sticky top-[15vh] z-40 backdrop-blur-md px-6 py-4 space-y-3 border-t border-white/10">
           <a
             href="#"
-            className="block text-white hover:text-[#6366f1] transition-colors duration-200"
+            className="block text-white text-lg font-medium hover:text-indigo-400 transition-colors duration-200"
             onClick={closeMenu}
           >
             About Me
           </a>
           <a
             href="#techStack"
-            className="block text-white hover:text-[#6366f1] transition-colors duration-200"
+            className="block text-white text-lg font-medium hover:text-indigo-400 transition-colors duration-200"
             onClick={closeMenu}
           >
             Tech Stack
           </a>
           <a
             href="#projects"
-            className="block text-white hover:text-[#6366f1] transition-colors duration-200"
+            className="block text-white text-lg font-medium hover:text-indigo-400 transition-colors duration-200"
             onClick={closeMenu}
           >
             Projects
           </a>
           <a
             href="#certificate"
-            className="block text-white hover:text-[#6366f1] transition-colors duration-200"
+            className="block text-white text-lg font-medium hover:text-indigo-400 transition-colors duration-200"
             onClick={closeMenu}
           >
             Certificates
           </a>
           <a
             href="#contact"
-            className="block text-white hover:text-[#6366f1] transition-colors duration-200"
+            className="block text-white text-lg font-medium hover:text-indigo-400 transition-colors duration-200"
             onClick={closeMenu}
           >
             Contact
           </a>
         </nav>
       )}
+
       <main>
         {/* About Me Section */}
         <section className="aboutme mt-8 sm:mt-16 md:mt-24" id="aboutme">
@@ -107,10 +108,13 @@ function App() {
         </section>
 
         <section className="techStack mt-8 sm:mt-16 md:mt-24" id="techStack">
-          <h2 className="text-4xl font-semibold text-center mb-10 text-white">
+          <h2 className="text-4xl font-semibold text-center mb-6 text-white">
             Tech Stack
           </h2>
-          <TechStack />
+
+          <div className="mt-10">
+            <TechStack />
+          </div>
         </section>
 
         <section
@@ -134,6 +138,12 @@ function App() {
           <Contact />
         </section>
       </main>
+      <footer className="bg-indigo-800 text-white text-center py-4 mt-8">
+        <p className="text-sm">
+          &copy; {new Date().getFullYear()} Kim Leones. All rights reserved.
+        </p>
+        <p className="text-sm">Made using React</p>
+      </footer>
     </>
   );
 }

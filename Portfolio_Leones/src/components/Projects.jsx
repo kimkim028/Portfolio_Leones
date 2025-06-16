@@ -30,7 +30,10 @@ const Projects = () => {
   const images = [Zoo_1, Zoo_2, Zoo_3, Zoo_4, Zoo_5];
   const images_2 = [Chatbot_1, Chatbot_2, Chatbot_3];
 
-  const title = ["HTML CSS Landing Page", "Chatbot Web App"];
+  const title = [
+    "HTML CSS Landing Page",
+    "Customer Support Chatbot Hybrid Model ",
+  ];
 
   const description1 =
     "I developed the Zoo Landing Page project during an online free boot camp, showcasing my skills in HTML and CSS. This responsive website features a clean design, providing an optimal user experience on various devices. Through this project, I demonstrated my ability to develop a front-end static website.";

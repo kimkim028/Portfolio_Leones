@@ -19,9 +19,9 @@ const Certificate = () => {
             index === 2 ? "md:col-span-2 md:mx-auto" : ""
           }`}
         >
-          <h3 className="text-xl font-semibold mb-4 text-center">
+          {/* <h3 className="text-xl font-semibold mb-4 text-center">
             {image.alt}
-          </h3>
+          </h3> */}
           <img
             src={image.src}
             alt={image.alt}

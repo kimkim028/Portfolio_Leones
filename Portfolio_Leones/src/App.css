@@ -7,7 +7,9 @@
   text-decoration: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family: "Huninn", sans-serif;
+
+  font-style: normal;
 }
 
 body {
@@ -18,9 +20,9 @@ form .name-container,
 form .number-container,
 form .email-container,
 form .textarea-container {
-  border: 2px solid white !important; /* Override * { border: none; } */
+  border: 2px solid #4f46e5 !important; /* Override * { border: none; } */
   margin-bottom: 10px;
-  height: 2.5rem; /* Consistent input height */
+  height: 3rem; /* Consistent input height */
   padding: 8px;
 }
 
@@ -35,7 +37,15 @@ form .email-container:focus,
 form .textarea-container:focus {
   border: 2px solid #4f46e5 !important; /* Indigo-500 on focus */
 }
-
+.techStack h2 {
+  margin-bottom: 20px;
+}
+.certificate h2 {
+  margin-bottom: 20px;
+}
+.projects h2 {
+  margin-bottom: 20px;
+}
 /* Responsive adjustments for the form */
 @media (max-width: 768px) {
   form {
@@ -107,7 +117,12 @@ header {
   padding-left: 10%;
   padding-right: 10%;
 }
-
+.contact {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
 .contact-icons a {
   display: flex;
   justify-content: center;
@@ -119,7 +134,11 @@ header {
   color: inherit;
   transition: transform 0.2s ease-in-out;
 }
+/* .button-contact {
+  border: 2px solid white;
+  border-color: #4f46e5;
 
+} */
 .contact-icons a:hover {
   transform: scale(1.3) translateY(-5px);
   color: #6366f1; /* indigo-500 */

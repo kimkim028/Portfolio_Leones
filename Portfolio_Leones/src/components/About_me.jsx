@@ -33,7 +33,7 @@ const About_me = () => {
             </a>
 
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/kimkim028"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -41,7 +41,7 @@ const About_me = () => {
             </a>
 
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:k.leones.529601@umindanao.edu.ph"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -50,7 +50,13 @@ const About_me = () => {
           </div>
           <div className="resume-button mt-4">
             <button>
-              <a href="">Resume</a>
+              <a
+                href="https://drive.google.com/file/d/1q_Za2BfBRLktuNyi0tb2N1nqSBtiSrqf/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
             </button>
           </div>
         </div>
