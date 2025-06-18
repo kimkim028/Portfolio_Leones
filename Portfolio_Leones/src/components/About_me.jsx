@@ -53,7 +53,9 @@ const About_me = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="resume-button mt-4">Resume</div>
+            <div className="resume-button mt-4">
+              <button>Resume</button>
+            </div>
           </a>
         </div>
 
