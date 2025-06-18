@@ -48,17 +48,13 @@ const About_me = () => {
               <BiLogoGmail size={35} />
             </a>
           </div>
-          <div className="resume-button mt-4">
-            <button>
-              <a
-                href="https://drive.google.com/file/d/1q_Za2BfBRLktuNyi0tb2N1nqSBtiSrqf/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
-            </button>
-          </div>
+          <a
+            href="https://drive.google.com/file/d/1q_Za2BfBRLktuNyi0tb2N1nqSBtiSrqf/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="resume-button mt-4">Resume</div>
+          </a>
         </div>
 
         {/* Image Section - appears top on mobile, right on desktop */}
