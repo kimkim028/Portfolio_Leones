@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./App.css";
-import About_me from "./components/About_me";
+import About_me from "./Pages/About_me";
 import TechStack from "./components/TechStack";
-import Certificate from "./components/Certificate";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Certificate from "./Pages/Certificate";
+import Projects from "./Pages/Projects";
+import Contact from "./Pages/Contact";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
