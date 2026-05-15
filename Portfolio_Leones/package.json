@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kimkim028.github.io/Portfolio_Leones/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
