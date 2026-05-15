@@ -65,9 +65,8 @@ const Home = () => {
               role-based access control, and real-world workflows such as
               booking and payment processing. I enjoy working across several
               modern technologies and adapting to different architectures to
-              solve real problems. Currently seeking entry-level or internship
-              opportunities where I can contribute to impactful projects and
-              grow as a developer.
+              solve real problems. Currently seeking opportunities where I can
+              contribute to impactful projects and grow as a developer.
             </p>
 
             {/* SOCIAL ICONS */}
