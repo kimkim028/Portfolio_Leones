@@ -56,18 +56,18 @@ const Home = () => {
             </h2>
 
             <h3 className="text-lg sm:text-xl text-gray-600 font-medium">
-              Full-Stack Web Developer
+              Software Engineer
             </h3>
 
             <p className="text-base leading-relaxed max-w-full sm:max-w-[90%]">
-              I’m a full-stack web developer who builds scalable and
-              user-focused applications. I’ve developed systems with secure
-              authentication, role-based access control, and real-world
-              workflows such as booking and payment processing. I enjoy working
-              across several modern technologies and adapting to different
-              architectures to solve real problems. Currently seeking
-              entry-level or internship opportunities where I can contribute to
-              impactful projects and grow as a developer.
+              I’m a software engineer who builds scalable and user-focused
+              applications. I’ve developed systems with secure authentication,
+              role-based access control, and real-world workflows such as
+              booking and payment processing. I enjoy working across several
+              modern technologies and adapting to different architectures to
+              solve real problems. Currently seeking entry-level or internship
+              opportunities where I can contribute to impactful projects and
+              grow as a developer.
             </p>
 
             {/* SOCIAL ICONS */}
