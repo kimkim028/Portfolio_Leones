@@ -41,7 +41,7 @@ const Projects = () => {
       title: "Car Rental System (MERN Stack)",
       images: [Car_1, Car_2, Car_3, Car_4, Car_5],
       description:
-        "A full-stack car rental platform featuring secure authentication...",
+        "A full-stack car rental platform built using MongoDB, Express.js, React.js, and Node.js. Features secure JWT authentication, role-based access control (RBAC) for admin and customer management, RESTful APIs for bookings and rental history, Stripe payment simulation, vehicle image upload, and availability validation to prevent booking conflicts.",
       liveLink: "https://leones-car-mern.vercel.app/",
       githubLink: "https://github.com/kimkim028/Leones_CarMern",
     },
@@ -49,14 +49,15 @@ const Projects = () => {
       title: "HTML CSS Landing Page",
       images: [Zoo_1, Zoo_2, Zoo_3, Zoo_4, Zoo_5],
       description:
-        "I developed the Zoo Landing Page project during an online free boot camp...",
+        "A responsive zoo-themed landing page created during the Free CodeMNL bootcamp using HTML and CSS. Focused on modern UI design, clean layouts, responsive sections, and interactive styling to improve front-end development skills.",
       liveLink: "https://kimoy28.github.io/",
       githubLink: "https://github.com/kimoy28/Kimoy28.github.io",
     },
     {
       title: "Customer Support Chatbot Hybrid Model",
       images: [Chatbot_1, Chatbot_2, Chatbot_3],
-      description: "A hybrid NLP model combining GPT-2 and DistilBERT...",
+      description:
+        "A hybrid NLP customer support chatbot combining GPT-2 and DistilBERT to improve contextual response accuracy. Implemented multiple fusion techniques including concatenation, cross-attention, and dense fusion to enhance semantic understanding. Optimized for multi-intent classification and entity recognition, with a scalable architecture suitable for real-world customer service deployment.",
       // liveLink: "https://your-live-site.com",
       githubLink: "https://github.com/reagan13/thesis-prototype",
     },
