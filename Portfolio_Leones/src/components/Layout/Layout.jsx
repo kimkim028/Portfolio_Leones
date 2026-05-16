@@ -172,17 +172,17 @@ const Layout = () => {
               <h3 className="font-semibold mb-4 text-lg">Quick Links</h3>
               <ul className="space-y-2 text-sm text-indigo-200">
                 <li>
-                  <a href="#home" className="hover:text-white transition">
+                  <a href="/" className="hover:text-white transition">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" className="hover:text-white transition">
+                  <a href="/projects" className="hover:text-white transition">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#techStack" className="hover:text-white transition">
+                  <a href="/techStack" className="hover:text-white transition">
                     Tech Stack
                   </a>
                 </li>

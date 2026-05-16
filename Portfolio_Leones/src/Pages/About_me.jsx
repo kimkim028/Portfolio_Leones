@@ -79,7 +79,7 @@ const About_me = () => {
           </Link>
 
           <Link
-            to="https://drive.google.com/file/d/13oMFtLdtsFRF_JHXVXb6fOLksGbkSSen/view?usp=sharing"
+            to="https://drive.google.com/file/d/12VvEOYdl5flgL8kLn47S0pA2z_doyHF-/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
