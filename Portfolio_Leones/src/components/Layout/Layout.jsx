@@ -188,11 +188,8 @@ const Layout = () => {
                 </li>
 
                 <li>
-                  <a
-                    href="/certificates"
-                    className="hover:text-white transition"
-                  >
-                    Certificates
+                  <a href="/contact" className="hover:text-white transition">
+                    Contact
                   </a>
                 </li>
               </ul>
