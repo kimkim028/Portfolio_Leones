@@ -177,13 +177,22 @@ const Layout = () => {
                   </a>
                 </li>
                 <li>
+                  <a href="/aboutme" className="hover:text-white transition">
+                    About Me
+                  </a>
+                </li>
+                <li>
                   <a href="/projects" className="hover:text-white transition">
                     Projects
                   </a>
                 </li>
+
                 <li>
-                  <a href="/contact" className="hover:text-white transition">
-                    Contact
+                  <a
+                    href="/certificates"
+                    className="hover:text-white transition"
+                  >
+                    Certificates
                   </a>
                 </li>
               </ul>
