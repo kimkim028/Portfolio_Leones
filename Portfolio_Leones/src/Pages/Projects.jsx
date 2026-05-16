@@ -57,8 +57,8 @@ const Projects = () => {
       title: "Customer Support Chatbot Hybrid Model",
       images: [Chatbot_1, Chatbot_2, Chatbot_3],
       description: "A hybrid NLP model combining GPT-2 and DistilBERT...",
-      liveLink: "https://your-live-site.com",
-      githubLink: "https://github.com/yourusername/project",
+      // liveLink: "https://your-live-site.com",
+      githubLink: "https://github.com/reagan13/thesis-prototype",
     },
   ];
   return (
